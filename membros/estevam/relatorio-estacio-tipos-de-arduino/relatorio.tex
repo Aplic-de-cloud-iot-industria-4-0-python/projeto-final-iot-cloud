@@ -1,0 +1,121 @@
+\documentclass{estacio}
+
+\usepackage{listings} % Pacote para inclusão de códigos
+
+% Configuração do ambiente para códigos Python
+\lstnewenvironment{pythoncode}[1][]{
+    \lstset{
+        language=Python,
+        basicstyle=\scriptsize\ttfamily, % Altere para \scriptsize ou \small
+        keywordstyle=\color{blue!70!black}\bfseries,
+        stringstyle=\color{orange!70!black},
+        commentstyle=\color{green!70!black}\itshape,
+        morecomment=[l][\color{magenta}]{\#},
+        numbers=left,
+        numberstyle=\tiny\color{gray}, % Tamanho das linhas numeradas
+        stepnumber=1,
+        numbersep=5pt,
+        tabsize=4,
+        showspaces=false,
+        showstringspaces=false,
+        breaklines=true,
+        frame=tb,
+        framexleftmargin=5mm,
+        aboveskip=3mm,
+        belowskip=3mm,
+        captionpos=b,
+        #1
+    }
+}{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+Arduino é uma plataforma de prototipagem eletrônica de código aberto que consiste em hardware e software flexíveis, amplamente utilizada por entusiastas, estudantes e profissionais em áreas como engenharia, design e programação. Existem diversos tipos de placas Arduino, cada uma com características técnicas específicas que se adequam a diferentes necessidades e projetos.
+
+\section{Principais Tipos de Arduino}
+
+\subsection{Arduino Uno}
+\subsubsection{Características técnicas}
+\begin{itemize}
+    \item Microcontrolador: ATmega328P.
+    \item Memória flash: 32KB (dos quais 0.5KB são usados pelo bootloader).
+    \item SRAM: 2KB.
+    \item Clock: 16MHz.
+\end{itemize}
+\subsubsection{Aplicações}
+\begin{itemize}
+    \item Projetos iniciantes.
+    \item Projetos de aprendizado.
+    \item Prototipagem rápida.
+\end{itemize}
+\subsubsection{Benefícios}
+\begin{itemize}
+    \item Fácil de usar e programar.
+    \item Preço acessível.
+    \item Comunidade ativa e vasta documentação disponível.
+\end{itemize}
+\subsubsection{Concorrentes}
+\begin{itemize}
+    \item Arduino Nano.
+    \item Arduino Leonardo.
+\end{itemize}
+
+\subsection{Arduino Mega}
+\subsubsection{Características técnicas}
+\begin{itemize}
+    \item Microcontrolador: ATmega2560.
+    \item Memória flash: 256KB (dos quais 8KB são usados pelo bootloader).
+    \item SRAM: 8KB.
+    \item Clock: 16MHz.
+\end{itemize}
+\subsubsection{Aplicações}
+\begin{itemize}
+    \item Projetos complexos que exigem mais pinos de I/O e mais memória.
+    \item Automação residencial.
+    \item Robótica avançada.
+\end{itemize}
+\subsubsection{Benefícios}
+\begin{itemize}
+    \item Grande quantidade de pinos de I/O.
+    \item Memória flash e SRAM expandidas.
+    \item Suporte para projetos exigentes.
+\end{itemize}
+\subsubsection{Concorrentes}
+\begin{itemize}
+    \item Arduino Due.
+    \item Placas compatíveis com ARM Cortex.
+\end{itemize}
+
+\subsection{Arduino Nano}
+\subsubsection{Características técnicas}
+\begin{itemize}
+    \item Microcontrolador: ATmega328P.
+    \item Memória flash: 32KB (dos quais 2KB são usados pelo bootloader).
+    \item SRAM: 2KB.
+    \item Clock: 16MHz.
+\end{itemize}
+\subsubsection{Aplicações}
+\begin{itemize}
+    \item Projetos compactos.
+    \item Projetos wearable.
+    \item Aplicações com restrições de espaço.
+\end{itemize}
+\subsubsection{Benefícios}
+\begin{itemize}
+    \item Tamanho compacto.
+    \item Pode ser soldado diretamente em placas de circuito impresso.
+    \item Adequado para projetos portáteis.
+\end{itemize}
+\subsubsection{Concorrentes}
+\begin{itemize}
+    \item Arduino Pro Mini.
+    \item Adafruit Trinket.
+\end{itemize}
+
+\section{Considerações Finais}
+Cada tipo de Arduino oferece vantagens específicas, desde a facilidade de uso e baixo custo até a capacidade de lidar com projetos complexos e exigentes. A escolha entre os tipos de Arduino depende das necessidades do projeto, do orçamento e das preferências pessoais do usuário. A ampla disponibilidade de documentação, tutoriais e comunidade de suporte torna a plataforma Arduino uma escolha popular para uma variedade de aplicações de prototipagem e desenvolvimento.
+
+\end{document}

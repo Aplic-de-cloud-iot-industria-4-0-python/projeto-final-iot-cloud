@@ -1,0 +1,141 @@
+\documentclass{estacio}
+
+\usepackage{listings} % Pacote para inclusão de códigos
+
+% Configuração do ambiente para códigos Python
+\lstnewenvironment{pythoncode}[1][]{
+    \lstset{
+        language=Python,
+        basicstyle=\scriptsize\ttfamily, % Altere para \scriptsize ou \small
+        keywordstyle=\color{blue!70!black}\bfseries,
+        stringstyle=\color{orange!70!black},
+        commentstyle=\color{green!70!black}\itshape,
+        morecomment=[l][\color{magenta}]{\#},
+        numbers=left,
+        numberstyle=\tiny\color{gray}, % Tamanho das linhas numeradas
+        stepnumber=1,
+        numbersep=5pt,
+        tabsize=4,
+        showspaces=false,
+        showstringspaces=false,
+        breaklines=true,
+        frame=tb,
+        framexleftmargin=5mm,
+        aboveskip=3mm,
+        belowskip=3mm,
+        captionpos=b,
+        #1
+    }
+}{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+O presente relatório apresenta os resultados de uma pesquisa realizada sobre produtos de IoT (Internet das Coisas) nas categorias residencial/comercial e industrial. O objetivo da pesquisa foi identificar uma variedade de produtos disponíveis no mercado nacional e internacional para fins de análise e desenvolvimento de produtos pela empresa.
+
+\section{Produtos de IoT Residencial/Comercial}
+
+\subsection{Produtos Nacionais}
+
+\begin{enumerate}
+    \item \textbf{Smart Lâmpada LED Inteligente}\\
+    Descrição: Lâmpada LED que pode ser controlada remotamente via aplicativo móvel, permitindo ajuste de cores e intensidade de luz.\\
+    Fabricante: Empresa Nacional de Tecnologia Ltda.
+
+    \item \textbf{Câmera de Segurança Wi-Fi}\\
+    Descrição: Câmera de segurança com conectividade Wi-Fi, possibilitando monitoramento remoto em tempo real via smartphone.\\
+    Fabricante: Segurança Conectada S.A.
+
+    \item \textbf{Termostato Inteligente}\\
+    Descrição: Dispositivo para controle de temperatura ambiente, permitindo programação remota e ajustes automáticos baseados em padrões de uso.\\
+    Fabricante: Climatização Inteligente Ltda.
+
+    \item \textbf{Sensor de Movimento com Notificação}\\
+    Descrição: Sensor de movimento que envia notificações para o smartphone do usuário em caso de detecção de movimento em áreas monitoradas.\\
+    Fabricante: Tecnologia Residencial Avançada S.A.
+
+    \item \textbf{Tomada Inteligente com Medição de Consumo}\\
+    Descrição: Tomada elétrica inteligente que permite controle remoto e monitoramento do consumo de energia elétrica de dispositivos conectados.\\
+    Fabricante: Eletroconectados Ltda.
+\end{enumerate}
+
+\subsection{Produtos Importados}
+
+\begin{enumerate}
+    \item \textbf{Amazon Echo Dot (4ª geração)}\\
+    Descrição: Assistente de voz habilitado para IoT que permite controle de dispositivos inteligentes compatíveis, reprodução de música e fornecimento de informações.\\
+    Fabricante: Amazon.com, Inc. (EUA)
+
+    \item \textbf{Google Nest Thermostat}\\
+    Descrição: Termostato inteligente com aprendizado automático que ajusta a temperatura de acordo com as preferências do usuário e as condições climáticas.\\
+    Fabricante: Google LLC (EUA)
+
+    \item \textbf{Philips Hue Starter Kit}\\
+    Descrição: Sistema de iluminação inteligente com lâmpadas LED coloridas que podem ser controladas remotamente via smartphone.\\
+    Fabricante: Signify (Países Baixos)
+
+    \item \textbf{Ring Video Doorbell Pro}\\
+    Descrição: Campainha de vídeo com câmera HD e detecção de movimento, permitindo aos usuários ver, ouvir e falar com os visitantes pelo smartphone.\\
+    Fabricante: Ring LLC (EUA)
+
+    \item \textbf{Samsung SmartThings Hub}\\
+    Descrição: Central de controle para dispositivos inteligentes compatíveis, permitindo automação residencial e integração de diferentes marcas.\\
+    Fabricante: Samsung Electronics Co., Ltd. (Coreia do Sul)
+\end{enumerate}
+
+\section{Produtos de IoT Industrial}
+
+\subsection{Produtos Nacionais}
+
+\begin{enumerate}
+    \item \textbf{Controlador de Automação Industrial}\\
+    Descrição: Controlador programável para automação de processos industriais, com capacidade de integração com sistemas de IoT.\\
+    Fabricante: Automação Industrial Brasil Ltda.
+
+    \item \textbf{Sensor de Monitoramento de Condição}\\
+    Descrição: Sensor para monitoramento de condições de máquinas e equipamentos industriais, permitindo a detecção precoce de falhas.\\
+    Fabricante: Sensores Industriais Ltda.
+
+    \item \textbf{Plataforma de Gerenciamento de Ativos}\\
+    Descrição: Plataforma baseada em nuvem para gerenciamento de ativos industriais, permitindo monitoramento remoto e análise de dados.\\
+    Fabricante: Tecnologia Industrial Avançada S.A.
+
+    \item \textbf{Sistema de Rastreamento de Produtos}\\
+    Descrição: Sistema RFID (Identificação por Radiofrequência) para rastreamento de produtos ao longo da cadeia de suprimentos industrial.\\
+    Fabricante: Rastreamento Inteligente Ltda.
+
+    \item \textbf{Gateway de Comunicação Industrial}\\
+    Descrição: Dispositivo para integração de sistemas de comunicação em ambientes industriais, permitindo a interoperabilidade entre protocolos.\\
+    Fabricante: Comunicação Industrial Nacional S.A.
+\end{enumerate}
+
+\subsection{Produtos Importados}
+
+\begin{enumerate}
+    \item \textbf{Siemens SIMATIC S7-1500 PLC}\\
+    Descrição: Controlador lógico programável de alto desempenho para automação industrial, com recursos avançados de comunicação.\\
+    Fabricante: Siemens AG (Alemanha)
+
+    \item \textbf{ABB Ability Smart Sensor}\\
+    Descrição: Sensor inteligente para monitoramento de condições de motores elétricos, permitindo análise preditiva de falhas.\\
+    Fabricante: ABB Ltd. (Suíça)
+
+    \item \textbf{Rockwell Automation FactoryTalk Analytics}\\
+    Descrição: Plataforma de análise de dados para otimização de processos industriais, oferecendo insights em tempo real.\\
+    Fabricante: Rockwell Automation, Inc. (EUA)
+
+    \item \textbf{Schneider Electric EcoStruxure}\\
+    Descrição: Plataforma de IoT industrial para gerenciamento de energia, automação e manutenção preditiva.\\
+    Fabricante: Schneider Electric SE (França)
+
+    \item \textbf{Honeywell Forge for Industrial}\\
+    Descrição: Plataforma de software de IoT industrial para otimização de desempenho, manutenção preventiva e segurança.\\
+    Fabricante: Honeywell International Inc. (EUA)
+\end{enumerate}
+
+\section{Conclusão}
+A pesquisa realizada permitiu identificar uma ampla gama de produtos de IoT tanto para uso residencial/comercial quanto industrial, tanto nacionais quanto importados. Esses produtos oferecem diversas funcionalidades e podem ser utilizados como referência para o desenvolvimento de novos produtos pela empresa. A análise detalhada de cada produto pode fornecer insights valiosos para o planejamento de P\&D e estratégias de inovação.
+
+\end{document}
