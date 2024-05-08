@@ -1,0 +1,229 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                Rubens Braz                %
+%            www.rubensbraz.com             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definições Iniciais --------------------------------------------------
+\documentclass[12pt]{report}
+
+%\usepackage[a4paper]{geometry}
+\usepackage[left=2.8cm, right=2.8cm, top=4cm]{geometry} % margens da folha
+
+\usepackage[utf8]{inputenc} % caracteres com acento
+
+\usepackage[english,portuguese]{babel}
+\usepackage[T1]{fontenc} %tradução
+
+\usepackage{url} % exibição de URL's
+
+\usepackage{subfigure}
+\usepackage{graphicx, multicol, latexsym, amsmath, amssymb} % permite inserção de imagens e fórmulas matemáticas
+
+\graphicspath{{../pdf/}{../jpeg/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png} % formatos aceitos
+
+\usepackage{hyphenat} % hífens; veja a última linha antes do início do documento, corrigir erros de hifenização lá!
+
+\usepackage{etoolbox}
+\apptocmd{\sloppy}{\hbadness 10000\relax}{}{} % remove erros de underfull hbox em links
+
+\usepackage{color} % permite a mudança de cor do texto
+
+\usepackage{xcolor,soul,framed}
+\colorlet{shadecolor}{yellow} % define cor do destacado como amarelo
+
+\usepackage{silence}
+\WarningFilter{caption}{Unsupported document class} % remove o erro no pacote 'caption'
+\usepackage{caption} % permite a inserção de legendas em imagens
+
+\usepackage{eqparbox} % facilita a criação de grupos
+
+\usepackage{listings} % permite a escrita de códigos de programação
+
+\usepackage{indentfirst} % identação depois de uma seção
+
+\usepackage{tabularx} % tabelas com tamanho variável de coluna
+
+\usepackage{array}
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother % Manter capítulos na mesma página
+
+\hyphenation{matemá-tica} % corrigir erros de hifenização aqui!
+
+\usepackage{placeins}
+
+% Início do documento --------------------------------------------------
+\begin{document}
+
+% Cabeçalho
+\begin{center}
+    \vspace*{-3cm}
+    \textsc{Universidade Estacio} \\
+    \textsc{Sistemas de Informação}
+    
+    \vspace{1cm}
+    \rule{411pt}{1.3pt}
+    \vspace{0.2cm}
+    
+    \Large \textbf{\textsc{Produto Desenvolvimento}}
+    
+    \rule{411pt}{1.3pt}
+    \vspace{1cm}
+    
+    Aluno: João Daniel da Silva\\
+    \vspace{0.5cm}
+  
+    
+    \vspace{1cm}
+\end{center}
+
+
+% Resumo
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Relatório Técnico de Produtos IoT}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Definindo cores personalizadas
+\definecolor{arduino_blue}{RGB}{0, 105, 178}
+\definecolor{arduino_green}{RGB}{40, 145, 40}
+\definecolor{arduino_red}{RGB}{191, 37, 45}
+\definecolor{arduino_yellow}{RGB}{254, 221, 0}
+\definecolor{arduino_purple}{RGB}{123, 50, 148}
+
+\title{Tipos de Arduino e suas Diferenças}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Tipos de Arduino}
+
+\subsection{Arduino Uno}
+\begin{center}
+\textcolor{arduino_blue}{\textbf{Características Técnicas}}
+\begin{itemize}
+    \item Processador: ATmega328P
+    \item Pinos de E/S Digitais: 14
+    \item Pinos de E/S Analógicas: 6
+    \item Memória Flash: 32KB
+\end{itemize}
+
+\textcolor{arduino_blue}{\textbf{Aplicações}}
+\begin{itemize}
+    \item Projetos iniciantes
+    \item Automação residencial simples
+    \item Controle de dispositivos básicos
+\end{itemize}
+
+\textcolor{arduino_blue}{\textbf{Benefícios}}
+\begin{itemize}
+    \item Fácil de usar e aprender
+    \item Ampla comunidade e documentação
+    \item Preço acessível
+\end{itemize}
+\end{center}
+
+\subsection{Arduino Mega}
+\begin{center}
+\textcolor{arduino_green}{\textbf{Características Técnicas}}
+\begin{itemize}
+    \item Processador: ATmega2560
+    \item Pinos de E/S Digitais: 54
+    \item Pinos de E/S Analógicas: 16
+    \item Memória Flash: 256KB
+\end{itemize}
+
+\textcolor{arduino_green}{\textbf{Aplicações}}
+\begin{itemize}
+    \item Projetos complexos
+    \item Robótica
+    \item Automação industrial
+\end{itemize}
+
+\textcolor{arduino_green}{\textbf{Benefícios}}
+\begin{itemize}
+    \item Grande número de pinos de I/O
+    \item Compatibilidade com shields Arduino Uno
+    \item Ideal para projetos avançados
+\end{itemize}
+\end{center}
+
+\subsection{Arduino Nano}
+\begin{center}
+\textcolor{arduino_red}{\textbf{Características Técnicas}}
+\begin{itemize}
+    \item Processador: ATmega328P
+    \item Pinos de E/S Digitais: 14
+    \item Pinos de E/S Analógicas: 8
+    \item Memória Flash: 32KB
+\end{itemize}
+
+\textcolor{arduino_red}{\textbf{Aplicações}}
+\begin{itemize}
+    \item Projetos compactos
+    \item Wearables
+    \item Aplicações embarcadas
+\end{itemize}
+
+\textcolor{arduino_red}{\textbf{Benefícios}}
+\begin{itemize}
+    \item Tamanho compacto
+    \item Baixo consumo de energia
+    \item Facilidade de integração em projetos pequenos
+\end{itemize}
+\end{center}
+
+% Adicione mais tipos de Arduino aqui
+
+
+
+
+
+
+% Bibliografia
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Bibliografia de IoT}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Bibliografia de IoT}
+
+Nos últimos anos, o desenvolvimento de Internet das Coisas (IoT) tem crescido exponencialmente, impulsionado pela demanda por soluções inteligentes e conectadas em diversos setores. A IoT permite a interconexão de dispositivos físicos, coleta de dados em tempo real e automação de processos, trazendo benefícios significativos para residências, empresas e indústrias.
+
+O desenvolvimento de IoT abrange várias etapas, desde a concepção e prototipagem de dispositivos até a implementação de sistemas de gerenciamento de dados e análise de dados. Algumas das principais áreas de foco incluem:
+
+\begin{itemize}
+    \item Desenvolvimento de hardware: Projeto e fabricação de dispositivos inteligentes, sensores e atuadores com capacidade de comunicação.
+    \item Desenvolvimento de software: Programação de firmware para dispositivos IoT, desenvolvimento de aplicativos móveis e web para interação com os dispositivos.
+    \item Conectividade e comunicação: Implementação de protocolos de comunicação como MQTT, CoAP e HTTP para permitir a troca de dados entre dispositivos e servidores.
+    \item Segurança: Incorporação de medidas de segurança, como criptografia e autenticação, para proteger os dados transmitidos e garantir a integridade dos dispositivos.
+    \item Integração de sistemas: Desenvolvimento de plataformas e middleware para integrar dispositivos IoT com sistemas legados e outros serviços na nuvem.
+\end{itemize}
+
+O desenvolvimento de IoT é um campo multidisciplinar que requer conhecimentos em eletrônica, programação, redes de computadores, segurança da informação e design de sistemas. Com o avanço da tecnologia e a crescente adoção de dispositivos conectados, espera-se que o desenvolvimento de IoT continue a evoluir e gerar impactos significativos em diferentes aspectos da vida moderna.
+
+
+
+\end{document}
