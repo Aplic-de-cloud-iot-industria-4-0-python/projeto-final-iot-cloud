@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                Rubens Braz                %
+%            www.rubensbraz.com             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definições Iniciais --------------------------------------------------
+\documentclass[12pt]{report}
+
+%\usepackage[a4paper]{geometry}
+\usepackage[left=2.8cm, right=2.8cm, top=4cm]{geometry} % margens da folha
+
+\usepackage[utf8]{inputenc} % caracteres com acento
+
+\usepackage[english,portuguese]{babel}
+\usepackage[T1]{fontenc} %tradução
+
+\usepackage{url} % exibição de URL's
+
+\usepackage{subfigure}
+\usepackage{graphicx, multicol, latexsym, amsmath, amssymb} % permite inserção de imagens e fórmulas matemáticas
+
+\graphicspath{{../pdf/}{../jpeg/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png} % formatos aceitos
+
+\usepackage{hyphenat} % hífens; veja a última linha antes do início do documento, corrigir erros de hifenização lá!
+
+\usepackage{etoolbox}
+\apptocmd{\sloppy}{\hbadness 10000\relax}{}{} % remove erros de underfull hbox em links
+
+\usepackage{color} % permite a mudança de cor do texto
+
+\usepackage{xcolor,soul,framed}
+\colorlet{shadecolor}{yellow} % define cor do destacado como amarelo
+
+\usepackage{silence}
+\WarningFilter{caption}{Unsupported document class} % remove o erro no pacote 'caption'
+\usepackage{caption} % permite a inserção de legendas em imagens
+
+\usepackage{eqparbox} % facilita a criação de grupos
+
+\usepackage{listings} % permite a escrita de códigos de programação
+
+\usepackage{indentfirst} % identação depois de uma seção
+
+\usepackage{tabularx} % tabelas com tamanho variável de coluna
+
+\usepackage{array}
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother % Manter capítulos na mesma página
+
+\hyphenation{matemá-tica} % corrigir erros de hifenização aqui!
+
+\usepackage{placeins}
+
+% Início do documento --------------------------------------------------
+\begin{document}
+
+% Cabeçalho
+\begin{center}
+    \vspace*{-3cm}
+    \textsc{Universidade Estacio} \\
+    \textsc{Sistemas de Informação}
+    
+    \vspace{1cm}
+    \rule{411pt}{1.3pt}
+    \vspace{0.2cm}
+    
+    \Large \textbf{\textsc{Produto Desenvolvimento}}
+    
+    \rule{411pt}{1.3pt}
+    \vspace{1cm}
+    
+    Aluno: João Daniel da Silva\\
+    \vspace{0.5cm}
+  
+    
+    \vspace{1cm}
+\end{center}
+
+
+% Resumo
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Relatório Técnico de Produtos IoT}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+
+A Internet das Coisas (IoT) revolucionou a forma como interagimos com o mundo digital e físico, possibilitando a conexão e comunicação entre dispositivos inteligentes. Nesta seção introdutória, apresentaremos uma visão geral da IoT e sua importância nos setores residencial/comercial e industrial. Além disso, delinearemos o escopo da pesquisa e os objetivos do relatório.
+
+\section{Resumo}
+
+Nesta seção, forneceremos um resumo das descobertas e conclusões do relatório, destacando os principais produtos de IoT identificados, suas características técnicas, aplicações e potenciais impactos nos respectivos setores.
+
+\section{Histórico das Plataformas de IoT}
+
+\subsection{Residencial/Comercial}
+
+Desde o advento da IoT, várias plataformas foram desenvolvidas para atender às demandas de automação e conectividade nos ambientes residenciais e comerciais. Exemplos incluem sistemas de automação residencial baseados em hubs inteligentes, como Amazon Echo, Google Nest, e Apple HomeKit.
+
+\subsection{Industrial}
+
+No setor industrial, plataformas de IoT têm desempenhado um papel crucial na otimização de processos, manutenção preditiva e monitoramento de ativos. Soluções como Siemens MindSphere, IBM Watson IoT e Microsoft Azure IoT oferecem recursos avançados para conectar e gerenciar dispositivos em ambientes industriais complexos.
+
+\section{Produtos de IoT Residencial/Comercial}
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Descrições de Produtos de IoT}
+\author{Seu Nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Produtos de IoT Residencial/Comercial}
+
+\subsection{Nacionais}
+
+\subsubsection{Produto 1: Smart Home Hub}
+
+\textbf{Descrição:} O Smart Home Hub é um centro de controle inteligente para automação residencial. Ele conecta e gerencia uma variedade de dispositivos inteligentes, como lâmpadas, termostatos, câmeras de segurança e fechaduras, permitindo que os usuários controlem todos os aspectos de sua casa através de um aplicativo móvel intuitivo.
+
+\subsection{Importados}
+
+\subsubsection{Produto 6: Smart Refrigerator}
+
+\textbf{Descrição:} O Smart Refrigerator é uma geladeira inteligente equipada com recursos avançados de conectividade e tecnologia de reconhecimento de voz. Ele permite que os usuários monitorem e controlem remotamente o conteúdo da geladeira, recebam alertas de alimentos vencidos e até mesmo façam compras online diretamente da tela sensível ao toque integrada.
+
+\section{Produtos de IoT Industrial}
+
+\subsection{Nacionais}
+
+\subsubsection{Produto 1: Sistema de Monitoramento de Ativos}
+
+\textbf{Descrição:} O Sistema de Monitoramento de Ativos é uma solução nacional de IoT projetada para empresas industriais. Ele fornece monitoramento em tempo real de ativos, como máquinas, equipamentos e veículos, permitindo a detecção precoce de falhas, manutenção preditiva e otimização de operações para aumentar a eficiência e reduzir custos.
+
+\subsection{Importados}
+
+\subsubsection{Produto 6: Industrial IoT Gateway}
+
+\textbf{Descrição:} O Industrial IoT Gateway é um dispositivo importado que atua como um gateway de comunicação entre dispositivos industriais e plataformas de IoT. Ele suporta uma ampla gama de protocolos de comunicação, como Modbus, OPC-UA e MQTT, e facilita a integração de sistemas legados, permitindo a coleta e análise de dados para tomada de decisões informadas.
+
+
+
+\section{Conclusão}
+
+A pesquisa de produtos de IoT residencial/comercial e industrial revela uma ampla gama de soluções tecnológicas disponíveis para atender às necessidades dos consumidores e das indústrias. A evolução contínua nesse campo promete aumentar a eficiência, segurança e sustentabilidade em diversos setores. À medida que a demanda por conectividade e automação cresce, espera-se que novos produtos e tecnologias surjam para impulsionar ainda mais o avanço da IoT.
+
+
+
+% Bibliografia
+\bibliography{references}
+
+
+
+\section{Bibliografia de IoT}
+
+Nos últimos anos, o desenvolvimento de Internet das Coisas (IoT) tem crescido exponencialmente, impulsionado pela demanda por soluções inteligentes e conectadas em diversos setores. A IoT permite a interconexão de dispositivos físicos, coleta de dados em tempo real e automação de processos, trazendo benefícios significativos para residências, empresas e indústrias.
+
+O desenvolvimento de IoT abrange várias etapas, desde a concepção e prototipagem de dispositivos até a implementação de sistemas de gerenciamento de dados e análise de dados. Algumas das principais áreas de foco incluem:
+
+\begin{itemize}
+    \item Desenvolvimento de hardware: Projeto e fabricação de dispositivos inteligentes, sensores e atuadores com capacidade de comunicação.
+    \item Desenvolvimento de software: Programação de firmware para dispositivos IoT, desenvolvimento de aplicativos móveis e web para interação com os dispositivos.
+    \item Conectividade e comunicação: Implementação de protocolos de comunicação como MQTT, CoAP e HTTP para permitir a troca de dados entre dispositivos e servidores.
+    \item Segurança: Incorporação de medidas de segurança, como criptografia e autenticação, para proteger os dados transmitidos e garantir a integridade dos dispositivos.
+    \item Integração de sistemas: Desenvolvimento de plataformas e middleware para integrar dispositivos IoT com sistemas legados e outros serviços na nuvem.
+\end{itemize}
+
+O desenvolvimento de IoT é um campo multidisciplinar que requer conhecimentos em eletrônica, programação, redes de computadores, segurança da informação e design de sistemas. Com o avanço da tecnologia e a crescente adoção de dispositivos conectados, espera-se que o desenvolvimento de IoT continue a evoluir e gerar impactos significativos em diferentes aspectos da vida moderna.
+
+
+\end{document}
