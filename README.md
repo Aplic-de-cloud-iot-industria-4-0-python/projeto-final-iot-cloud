@@ -29,11 +29,9 @@ Bem-vindo à documentação do projeto "Aplic de Cloud IoT Indústria 4.0 em Pyt
 ### Tópicos e Descrições
 - **Monitoramento Remoto** : Descrição dos recursos e funcionalidades relacionados ao monitoramento remoto de ativos industriais utilizando sensores IoT e plataformas de computação em nuvem. 
 - **Visão Computacional** : Descrição dos recursos e técnicas utilizadas para implementar sistemas de visão computacional para inspeção de qualidade em processos industriais. 
-- **Machine Learning** : Descrição dos conceitos e algoritmos de machine learning aplicados à análise de dados e otimização de processos na indústria 4.0.
 
 ### Metodologias
 - **Agile** : Adoção de metodologias ágeis, como Scrum ou Kanban, para gerenciamento de projetos e desenvolvimento iterativo e incremental. 
-- **DevOps** : Implementação de práticas DevOps para integração contínua, entrega contínua e automação de processos de desenvolvimento, teste e implantação.
 
 ### Contribuição
 Todos os membros da equipe são encorajados a contribuir para a documentação, seja adicionando novos recursos, corrigindo erros ou melhorando a clareza e organização do conteúdo. Para contribuir, faça um fork do repositório, realize as alterações desejadas e envie um pull request para revisão.
