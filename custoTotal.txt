@@ -1,0 +1,23 @@
+Custo total do projeto
+
+1X Arduino Giga R1 Wifi: R$550 reais
+1X Esp32 Dev Module: R$89.99 reais
+2X Protoboard: R$65.96 reais
+1X Relé: R$40.14 reais
+Jumpers: R$59,98 reais
+1X Sensor de Humidade: R$20.43 reais
+1X LCD I2C: R$61.99 reais
+4X Led: R$21.1 + R$27.56 reais
+1X Sensor de quantidade de Água: R$14.96 reais
+
+Total: R$952.11 reais
+
+------------------------------------------------------
+
+Aparelhos extras:
+
+    Alexa: R$584.10 reais
+    Cafeteira: R$104.49 reais
+    Power Bank: R$39.90 reais
+
+Total: R$1.680.6 reais
