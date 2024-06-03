@@ -2,13 +2,13 @@
 
 Bem-vindo à documentação do projeto "Aplicação de Cloud IoT para Indústria 4.0 em Python". Esta documentação fornece informações detalhadas sobre a estrutura do repositório, projetos possíveis, tecnologias utilizadas, tópicos, descrições e metodologias aplicadas.
 ## Índice 
-1. [Visão Geral](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#vis%C3%A3o-geral) 
-2. [Estrutura de Diretórios](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#estrutura-de-diret%C3%B3rios) 
-3. [Possíveis Projetos](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#poss%C3%ADveis-projetos) 
-4. [Tecnologias Utilizadas](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#tecnologias-utilizadas) 
-5. [Tópicos e Descrições](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#t%C3%B3picos-e-descri%C3%A7%C3%B5es) 
-6. [Metodologias](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#metodologias) 
-7. [Contribuição](https://chatgpt.com/c/7305737e-34a8-4613-b6e0-66d4e0b7683c#contribui%C3%A7%C3%A3o)
+1. [Visão Geral]() 
+2. [Estrutura de Diretórios]() 
+3. [Possíveis Projetos]() 
+4. [Tecnologias Utilizadas]() 
+5. [Tópicos e Descrições]() 
+6. [Metodologias]() 
+7. [Contribuição]()
 ## Visão Geral
 
 Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuvem para monitoramento e automação industrial, alinhada aos princípios da Indústria 4.0. Utilizamos uma combinação de sensores, microcontroladores, plataformas de computação em nuvem e tecnologias de software para criar soluções inovadoras e eficientes.
