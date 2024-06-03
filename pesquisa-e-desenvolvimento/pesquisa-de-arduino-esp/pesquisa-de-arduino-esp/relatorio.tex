@@ -1,0 +1,91 @@
+\documentclass{ufersa}
+
+\usepackage{listings} % Pacote para inclusão de códigos
+
+% Configuração do ambiente para códigos Python
+\lstnewenvironment{pythoncode}[1][]{
+    \lstset{
+        language=Python,
+        basicstyle=\scriptsize\ttfamily, % Altere para \scriptsize ou \small
+        keywordstyle=\color{blue!70!black}\bfseries,
+        stringstyle=\color{orange!70!black},
+        commentstyle=\color{green!70!black}\itshape,
+        morecomment=[l][\color{magenta}]{\#},
+        numbers=left,
+        numberstyle=\tiny\color{gray}, % Tamanho das linhas numeradas
+        stepnumber=1,
+        numbersep=5pt,
+        tabsize=4,
+        showspaces=false,
+        showstringspaces=false,
+        breaklines=true,
+        frame=tb,
+        framexleftmargin=5mm,
+        aboveskip=3mm,
+        belowskip=3mm,
+        captionpos=b,
+        #1
+    }
+}{}
+
+\begin{document}
+\maketitle
+
+\section{ESP32}
+O ESP32 é um microcontrolador de baixo custo e baixo consumo de energia, com suporte para conexão Wi-Fi e Bluetooth. Ele oferece recursos avançados de processamento e conectividade, tornando-o ideal para projetos de IoT e aplicações sem fio.
+
+\subsection{Principais Características}
+\begin{itemize}
+    \item Wi-Fi e Bluetooth integrados
+    \item Arquitetura de microcontrolador de 32 bits
+    \item Alto poder de processamento
+    \item Baixo consumo de energia
+\end{itemize}
+
+\subsection{Aplicações}
+\begin{itemize}
+    \item Internet das Coisas (IoT)
+    \item Sistemas de monitoramento remoto
+    \item Controle de dispositivos via Wi-Fi/Bluetooth
+\end{itemize}
+
+\section{ESP8266}
+O ESP8266 é um microcontrolador com capacidade de Wi-Fi integrada, amplamente utilizado em projetos de IoT devido ao seu baixo custo e facilidade de integração com redes sem fio.
+
+\subsection{Principais Características}
+\begin{itemize}
+    \item Wi-Fi integrado
+    \item Baixo custo
+    \item Facilidade de programação
+    \item Suporte para múltiplos protocolos de rede
+\end{itemize}
+
+\subsection{Aplicações}
+\begin{itemize}
+    \item Monitoramento ambiental remoto
+    \item Sistemas de automação residencial
+    \item Dispositivos conectados à internet
+\end{itemize}
+
+\section{Arduino}
+O Arduino é uma plataforma de prototipagem eletrônica de código aberto que utiliza uma linguagem de programação baseada em Wiring. Ele é amplamente utilizado devido à sua simplicidade e facilidade de uso, sendo ideal para iniciantes e projetos de pequena escala.
+
+\subsection{Principais Características}
+\begin{itemize}
+    \item Plataforma de código aberto
+    \item Facilidade de prototipagem
+    \item Linguagem de programação baseada em Wiring
+    \item Diversos modelos disponíveis (Arduino Uno, Arduino Nano, etc.)
+\end{itemize}
+
+\subsection{Aplicações}
+\begin{itemize}
+    \item Projetos de eletrônica DIY
+    \item Automação residencial
+    \item Robótica educacional
+\end{itemize}
+
+\section{Conclusão}
+Tanto o Arduino quanto os microcontroladores ESP32 e ESP8266 oferecem uma ampla gama de possibilidades para projetos eletrônicos e IoT. A escolha entre eles dependerá das necessidades específicas do projeto, incluindo requisitos de conectividade, processamento e custo.
+
+\end{document}
