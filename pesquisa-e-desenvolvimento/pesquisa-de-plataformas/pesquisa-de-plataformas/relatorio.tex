@@ -1,0 +1,51 @@
+\documentclass{ufersa}
+
+\usepackage{listings} % Pacote para inclusão de códigos
+
+% Configuração do ambiente para códigos Python
+\lstnewenvironment{pythoncode}[1][]{
+    \lstset{
+        language=Python,
+        basicstyle=\scriptsize\ttfamily, % Altere para \scriptsize ou \small
+        keywordstyle=\color{blue!70!black}\bfseries,
+        stringstyle=\color{orange!70!black},
+        commentstyle=\color{green!70!black}\itshape,
+        morecomment=[l][\color{magenta}]{\#},
+        numbers=left,
+        numberstyle=\tiny\color{gray}, % Tamanho das linhas numeradas
+        stepnumber=1,
+        numbersep=5pt,
+        tabsize=4,
+        showspaces=false,
+        showstringspaces=false,
+        breaklines=true,
+        frame=tb,
+        framexleftmargin=5mm,
+        aboveskip=3mm,
+        belowskip=3mm,
+        captionpos=b,
+        #1
+    }
+}{}
+
+\begin{document}
+\maketitle
+\section{Introdução}
+A Internet das Coisas (IoT) está se tornando cada vez mais popular e comum em uma variedade de aplicações, desde residências inteligentes até indústrias. Com o aumento da demanda por soluções IoT, várias plataformas foram desenvolvidas para facilitar o desenvolvimento, implantação e gerenciamento de dispositivos IoT. Nesta pesquisa, examinaremos algumas das principais plataformas IoT disponíveis atualmente.
+
+\section{AWS IoT}
+A AWS IoT, oferecida pela Amazon Web Services, é uma plataforma abrangente para conectar dispositivos IoT à nuvem. Ela fornece recursos para gerenciar dispositivos, coletar e analisar dados, bem como integrar com outros serviços da AWS, como o Lambda e o S3.
+
+\section{Google Cloud IoT}
+O Google Cloud IoT oferece uma variedade de serviços para suportar soluções IoT, incluindo o Google Cloud IoT Core para gerenciar dispositivos e dados, Google Cloud Pub/Sub para comunicação em tempo real e Google Cloud Functions para processamento de dados em tempo real.
+
+\section{Microsoft Azure IoT}
+A plataforma Microsoft Azure IoT oferece uma gama de serviços para conectar, monitorar e controlar dispositivos IoT. Ele inclui o Azure IoT Hub para comunicação bidirecional entre dispositivos e a nuvem, Azure IoT Central para criar e gerenciar soluções IoT e Azure IoT Edge para executar cargas de trabalho de forma local em dispositivos.
+
+\section{IBM Watson IoT}
+O IBM Watson IoT é uma plataforma robusta para conectar dispositivos IoT à nuvem e aplicar análises avançadas aos dados coletados. Ele oferece serviços para gerenciar dispositivos, coletar e analisar dados em tempo real, bem como ferramentas de integração e desenvolvimento de aplicativos.
+
+\section{Conclusão}
+Existem muitas plataformas IoT disponíveis, cada uma com suas próprias vantagens e recursos. Ao escolher uma plataforma, é importante considerar os requisitos específicos do projeto, como escalabilidade, segurança, integração e custo. Esta pesquisa fornece uma visão geral das principais plataformas IoT disponíveis atualmente, ajudando os desenvolvedores a tomar decisões informadas ao criar soluções IoT.
+
+\end{document}
