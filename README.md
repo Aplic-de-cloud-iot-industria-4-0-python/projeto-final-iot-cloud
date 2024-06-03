@@ -22,19 +22,19 @@ Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuv
 - **membros** : Diretórios dedicados aos membros da equipe, contendo biografia, área de especialização, realizações no projeto e informações de contato. 
 - **Estevam**  
 - **Competências** : Programação em Python, Desenvolvimento de Firmware, Integração de Hardware 
-- **GitHub** : [github.com/estevam](https://github.com/estevam) 
+- **GitHub** : [github.com/estevam](https://github.com/estevam5s) 
 - **Realizações** : Desenvolveu o firmware para os sensores IoT, integrou o backend com a nuvem. 
 - **Gabriel**  
 - **Competências** : Programação em C++, Desenvolvimento de Software Embarcado, Análise de Dados 
-- **GitHub** : [github.com/gabriel](https://github.com/gabriel) 
+- **GitHub** : [github.com/gabriel](https://github.com/gfucci) 
 - **Realizações** : Criou os algoritmos de processamento de dados, implementou a comunicação entre os dispositivos IoT e a nuvem. 
 - **João**  
 - **Competências** : Programação em Python, Machine Learning, Visão Computacional 
-- **GitHub** : [github.com/joao](https://github.com/joao) 
+- **GitHub** : [github.com/joao](https://github.com/Devjoaodaniel) 
 - **Realizações** : Desenvolveu os modelos de machine learning para previsão de manutenção, implementou a visão computacional para inspeção de qualidade. 
 - **Leo**  
 - **Competências** : Desenvolvimento Web, Integração de APIs, Gerenciamento de Projetos 
-- **GitHub** : [github.com/leo](https://github.com/leo) 
+- **GitHub** : [github.com/leo](https://github.com/JamesbondCBS) 
 - **Realizações** : Desenvolveu a interface web para monitoramento dos dados, integrou APIs de serviços em nuvem. 
 - **pesquisa-e-desenvolvimento** : Focado na pesquisa e desenvolvimento de novas tecnologias, técnicas e abordagens aplicáveis ao projeto. 
 - **pesquisa-de-arduino-esp** : Documentos e estudos relacionados à pesquisa de microcontroladores Arduino e ESP. 
