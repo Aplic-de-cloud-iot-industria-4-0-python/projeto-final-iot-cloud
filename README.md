@@ -23,20 +23,20 @@ Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuv
 - **Estevam**  
 - **Competências** : Programação em Python, Desenvolvimento de Firmware, Integração de Hardware 
 - **GitHub** : [github.com/estevam](https://github.com/estevam5s) 
-- **Realizações** : Desenvolveu o firmware para os sensores IoT, integrou o backend com a nuvem. 
+- **Realizações** : 
 - **Gabriel**  
-- **Competências** : Programação em C++, Desenvolvimento de Software Embarcado, Análise de Dados 
+- **Competências** : Programação em C++, Desenvolvimento de Software Embarcado
 - **GitHub** : [github.com/gabriel](https://github.com/gfucci) 
-- **Realizações** : Criou os algoritmos de processamento de dados, implementou a comunicação entre os dispositivos IoT e a nuvem. 
+- **Realizações** :
 - **João**  
-- **Competências** : Programação em Python, Machine Learning, Visão Computacional 
+- **Competências** : Programação em C++
 - **GitHub** : [github.com/joao](https://github.com/Devjoaodaniel) 
-- **Realizações** : Desenvolveu os modelos de machine learning para previsão de manutenção, implementou a visão computacional para inspeção de qualidade. 
+- **Realizações** :
 - **Leo**  
-- **Competências** : Desenvolvimento Web, Integração de APIs, Gerenciamento de Projetos 
+- **Competências** :
 - **GitHub** : [github.com/leo](https://github.com/JamesbondCBS) 
-- **Realizações** : Desenvolveu a interface web para monitoramento dos dados, integrou APIs de serviços em nuvem. 
-- **pesquisa-e-desenvolvimento** : Focado na pesquisa e desenvolvimento de novas tecnologias, técnicas e abordagens aplicáveis ao projeto. 
+- **Realizações** :
+- **pesquisa-e-desenvolvimento** : 
 - **pesquisa-de-arduino-esp** : Documentos e estudos relacionados à pesquisa de microcontroladores Arduino e ESP. 
 - **pesquisa-de-marketing** : Estudos e estratégias de marketing para a promoção do projeto. 
 - **pesquisa-de-plataformas** : Análise e comparação de diferentes plataformas de computação em nuvem e IoT. 
