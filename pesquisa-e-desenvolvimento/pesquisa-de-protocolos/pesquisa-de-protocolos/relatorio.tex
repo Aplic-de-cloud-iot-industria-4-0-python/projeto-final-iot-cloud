@@ -1,0 +1,67 @@
+\documentclass{ufersa}
+
+\usepackage{listings} % Pacote para inclusão de códigos
+
+% Configuração do ambiente para códigos Python
+\lstnewenvironment{pythoncode}[1][]{
+    \lstset{
+        language=Python,
+        basicstyle=\scriptsize\ttfamily, % Altere para \scriptsize ou \small
+        keywordstyle=\color{blue!70!black}\bfseries,
+        stringstyle=\color{orange!70!black},
+        commentstyle=\color{green!70!black}\itshape,
+        morecomment=[l][\color{magenta}]{\#},
+        numbers=left,
+        numberstyle=\tiny\color{gray}, % Tamanho das linhas numeradas
+        stepnumber=1,
+        numbersep=5pt,
+        tabsize=4,
+        showspaces=false,
+        showstringspaces=false,
+        breaklines=true,
+        frame=tb,
+        framexleftmargin=5mm,
+        aboveskip=3mm,
+        belowskip=3mm,
+        captionpos=b,
+        #1
+    }
+}{}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+A Internet das Coisas (IoT) está se tornando cada vez mais importante em diversos setores, e a comunicação eficiente entre dispositivos é essencial para o funcionamento adequado dos sistemas IoT. Nesta pesquisa, exploraremos os protocolos mais comuns utilizados na comunicação entre dispositivos IoT.
+
+\section{Protocolos de Comunicação IoT}
+Existem vários protocolos de comunicação disponíveis para dispositivos IoT, cada um com suas próprias características e casos de uso específicos. Alguns dos protocolos mais populares incluem:
+
+\subsection{MQTT (Message Queuing Telemetry Transport)}
+O MQTT é um protocolo leve de mensagens, projetado para comunicações entre dispositivos com largura de banda limitada e alta latência. Ele utiliza o modelo de publicação/assinatura, facilitando a comunicação assíncrona entre dispositivos.
+
+\subsection{CoAP (Constrained Application Protocol)}
+O CoAP é um protocolo de aplicação web projetado para dispositivos com recursos limitados, como sensores e atuadores IoT. Ele oferece um modelo de comunicação baseado em requisição/resposta, semelhante ao HTTP, mas otimizado para ambientes com restrições de largura de banda e energia.
+
+\subsection{HTTP (Hypertext Transfer Protocol)}
+Embora não seja exclusivo para IoT, o HTTP ainda é amplamente utilizado para comunicação entre dispositivos IoT e servidores na nuvem. Ele oferece uma variedade de métodos de requisição, como GET, POST, PUT e DELETE, tornando-o flexível para diferentes tipos de interações.
+
+\section{Comparação de Protocolos}
+Para determinar o protocolo mais adequado para uma determinada aplicação IoT, é importante considerar vários fatores, como largura de banda disponível, consumo de energia, latência e requisitos de segurança. A tabela a seguir resume algumas das características-chave dos protocolos discutidos:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Protocolo & Largura de Banda & Consumo de Energia & Latência \\
+\hline
+MQTT & Baixa & Baixo & Alta \\
+CoAP & Baixa & Baixo & Média \\
+HTTP & Alta & Alto & Baixa \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Conclusão}
+A escolha do protocolo de comunicação correto é essencial para o sucesso de um sistema IoT. Ao considerar as características de diferentes protocolos, os desenvolvedores podem selecionar a opção mais adequada para atender aos requisitos específicos de sua aplicação.
+
+\end{document}
