@@ -121,7 +121,7 @@ Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuv
 
 ## Topicos e Descricoes 
 - **Monitoramento Remoto** : Recursos e funcionalidades relacionados ao monitoramento remoto de ativos industriais utilizando sensores IoT e plataformas de computação em nuvem. 
-- **Visão Computacional** : Técnicas e recursos utilizados para implementar sistemas de visão computacional para inspeção de qualidade em processos industriais.
+
 ## Metodologias 
 - **Agile** : Utilização de metodologias ágeis, como Scrum ou Kanban, para gerenciamento de projetos e desenvolvimento iterativo e incremental.
 
