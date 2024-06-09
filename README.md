@@ -17,72 +17,51 @@ Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuv
 
 ```md
 📁 projeto-final-iot-cloud
-├── 📁 apresentacao
-│   ├── 📄 arquivo1
-│   ├── 📄 arquivo2
-│   └── 📄 arquivo3
-├── 📁 backend
-│   ├── 📄 arquivo1.py
-│   ├── 📄 arquivo2.cpp
-│   └── 📄 arquivo3.py
-├── 📁 brainstorming
-│   ├── 📄 nota1.md
-│   ├── 📄 ideia2.md
-│   └── 📄 plano3.md
-├── 📁 competencias-carreira
-│   ├── 📄 recurso1.md
-│   ├── 📄 recurso2.md
-│   └── 📄 recurso3.md
-├── 📁 cursos
-│   ├── 📄 material1.md
-│   ├── 📄 tutorial2.md
-│   └── 📄 recurso3.md
+├── 📁 desenvolvimento
+│   ├── 📁 apresentacao
+│   │   └── 📄 arquivos e diretórios
+│   ├── 📁 backend
+│   │   └── 📄 arquivos e diretórios
+│   ├── 📁 brainstorming
+│   │   └── 📄 arquivos e diretórios
 ├── 📁 diversos
-│   ├── 📄 documento1.md
-│   ├── 📄 arquivo2.md
-│   └── 📄 arquivo3.md
+│   ├── 📁 competencias-carreira
+│   │   └── 📄 arquivos e diretórios
+│   ├── 📁 cursos
+│   │   └── 📄 arquivos e diretórios
 ├── 📁 membros
 │   ├── 📁 Estevam
 │   │   ├── 📄 competencias.md
-│   │   ├── 📄 github.md
 │   │   └── 📄 realizacoes.md
 │   ├── 📁 Gabriel
 │   │   ├── 📄 competencias.md
-│   │   ├── 📄 github.md
 │   │   └── 📄 realizacoes.md
 │   ├── 📁 João
 │   │   ├── 📄 competencias.md
-│   │   ├── 📄 github.md
 │   │   └── 📄 realizacoes.md
 │   └── 📁 Leo
 │       ├── 📄 competencias.md
-│       ├── 📄 github.md
 │       └── 📄 realizacoes.md
 ├── 📁 pesquisa-e-desenvolvimento
 │   ├── 📁 pesquisa-de-arduino-esp
 │   │   ├── 📄 documento1.md
-│   │   ├── 📄 estudo2.md
 │   │   └── 📄 arquivo3.md
 │   ├── 📁 pesquisa-de-marketing
 │   │   ├── 📄 estudo1.md
-│   │   ├── 📄 estrategia2.md
 │   │   └── 📄 arquivo3.md
 │   ├── 📁 pesquisa-de-plataformas
 │   │   ├── 📄 analise1.md
-│   │   ├── 📄 comparacao2.md
 │   │   └── 📄 arquivo3.md
 │   └── 📁 pesquisa-de-protocolos
 │       ├── 📄 protocolo1.md
-│       ├── 📄 estudo2.md
 │       └── 📄 pesquisa3.md
 ├── 📁 public
-│   ├── 📄 logo.png
-│   ├── 📄 icone.svg
-│   └── 📄 grafico.jpg
+│   ├── 📁 images
+│   │   └── 📄 arquivos e diretórios
+│   ├── 📁 videos
+│   │   └── 📄 arquivos e diretórios
 ├── 📁 relatorio-final
-│   ├── 📄 capitulo1.tex
-│   ├── 📄 capitulo2.tex
-│   └── 📄 capitulo3.tex
+│   └── 📄 ROTEIRO_DE_EXTENSAO.pdf
 ├── 📄 CONTRIBUTING.md
 ├── 📄 README.md
 ├── 📄 custoTotal.txt
