@@ -114,13 +114,44 @@ Este projeto tem como objetivo desenvolver uma aplicação de IoT baseada em nuv
 3. **Automação Astronômica com Telescópio Equatorial Uranum** : Desenvolvimento de um sistema que permite controlar o telescópio remotamente, capturar imagens do céu noturno e realizar análises astronômicas.
 
 ## Tecnologias Utilizadas 
-- **Python** : Linguagem de programação principal do projeto devido à sua versatilidade e ampla gama de bibliotecas. 
-- **C++** : Utilizado para o desenvolvimento de firmware e software para dispositivos embarcados, como o Arduino. 
-- **Arduino** : Plataforma de prototipagem eletrônica utilizada para desenvolver dispositivos IoT. 
+
+- **Python** : Utilizado para análise de dados e automação de tarefas, devido à sua versatilidade e ampla gama de bibliotecas.
+- **C++** : Linguagem de programação utilizada para o desenvolvimento de firmware e software para dispositivos embarcados, como o ESP8266.
+- **Arduino** : Plataforma de prototipagem eletrônica utilizada para desenvolver dispositivos IoT, permitindo fácil integração com sensores e atuadores.
+- **ESP8266** : Microcontrolador utilizado no projeto devido à sua capacidade de conectar-se à rede WiFi e manejar múltiplos sensores e atuadores simultaneamente.
+- **MQTT** : Protocolo de comunicação leve utilizado para a troca de mensagens entre a cafeteira e o servidor/cloud, facilitando o monitoramento e controle remoto.
+- **DHT11** : Sensor utilizado para medir temperatura e umidade, fornecendo dados essenciais para o monitoramento do ambiente.
+- **Sensor de Nível de Água** : Utilizado para medir a quantidade de água na cafeteira, garantindo o funcionamento adequado e seguro do dispositivo.
+- **Relé** : Atuador utilizado para ligar e desligar a cafeteira, controlado via sinais enviados pelo ESP8266.
+- **LCD (Display de Cristal Líquido)** : Utilizado para exibir informações como temperatura, umidade e nível de água, fornecendo feedback visual ao usuário.
+- **WiFi** : Tecnologia de rede sem fio utilizada para conectar a cafeteira à internet, permitindo o monitoramento e controle remoto.
+- **PubSubClient** : Biblioteca utilizada para implementar a comunicação MQTT no ESP8266, facilitando a publicação e subscrição de mensagens.
+- **HD44780** : Biblioteca utilizada para controlar o display LCD, permitindo a exibição de informações relevantes de forma clara e legível.
+- **GitHub** : Plataforma utilizada para versionamento de código, colaboração em equipe e documentação do projeto.
+- **Markdown** : Linguagem de marcação utilizada para escrever a documentação do projeto, devido à sua simplicidade e compatibilidade com várias plataformas.
 - **LaTeX** : Utilizado para a produção do relatório final do projeto, devido à sua capacidade de gerar documentos com alta qualidade tipográfica.
 
-## Topicos e Descricoes 
-- **Monitoramento Remoto** : Recursos e funcionalidades relacionados ao monitoramento remoto de ativos industriais utilizando sensores IoT e plataformas de computação em nuvem. 
+## Topicos e Descricoes
+- **Monitoramento Remoto** : Implementação de funcionalidades para monitoramento remoto da cafeteira, permitindo a visualização de dados como temperatura, umidade e nível de água através de sensores IoT conectados a plataformas de computação em nuvem.
+- **Controle via MQTT** : Utilização do protocolo MQTT para comunicação eficiente entre a cafeteira e dispositivos de controle remoto, permitindo o envio de comandos e recebimento de dados em tempo real.
+- **Integração com WiFi** : Configuração do ESP8266 para conexão à rede WiFi, possibilitando o acesso à internet e a integração com serviços de computação em nuvem para armazenamento e análise de dados.
+- **Interface de Usuário no LCD** : Desenvolvimento de uma interface de usuário utilizando um display LCD para exibir informações essenciais como a temperatura, umidade, nível de água e estado da cafeteira de forma clara e acessível.
+- **Leitura de Sensores** : Implementação de código para leitura de dados de sensores de temperatura e umidade (DHT11) e de nível de água, garantindo a coleta precisa de dados ambientais e operacionais.
+- **Controle de Relé** : Desenvolvimento de funcionalidades para controle do relé que liga e desliga a cafeteira, com base nos comandos recebidos via MQTT ou botões físicos.
+- **Gerenciamento de Energia** : Implementação de estratégias para otimização do consumo de energia do ESP8266 e dos componentes conectados, garantindo uma operação eficiente e sustentável.
+- **Segurança da Informação** : Medidas para garantir a segurança da comunicação entre a cafeteira e os serviços de computação em nuvem, incluindo criptografia de dados e autenticação de dispositivos.
+- **Atualizações Over-the-Air (OTA)** : Configuração do ESP8266 para suportar atualizações de firmware Over-the-Air, permitindo a atualização remota do software sem a necessidade de conexão física ao dispositivo.
+- **Notificações e Alertas** : Configuração de notificações e alertas baseados em condições específicas, como nível de água baixo ou temperatura alta, enviadas para o usuário através de mensagens MQTT ou serviços de notificação push.
+- **Desenvolvimento de API** : Criação de uma API para integração com outros sistemas e aplicativos, permitindo a extensão das funcionalidades da cafeteira e o desenvolvimento de novas aplicações baseadas nos dados coletados.
+- **Testes e Validação** : Execução de testes unitários e de integração para garantir a funcionalidade correta de todas as partes do sistema, incluindo sensores, relés, comunicação MQTT e interface de usuário.
+- **Documentação do Projeto** : Criação de documentação detalhada para cada parte do projeto, incluindo esquemas de hardware, diagramas de fluxo, manuais de usuário e guias de configuração.
+- **Manutenção e Suporte** : Desenvolvimento de um plano de manutenção para garantir a operação contínua da cafeteira IoT, incluindo procedimentos de verificação regular e suporte técnico.
+- **Gerenciamento de Projetos** : Utilização de ferramentas de gerenciamento de projetos, como GitHub Projects, para organizar tarefas, acompanhar o progresso e colaborar com a equipe de desenvolvimento.
+- **Feedback do Usuário** : Implementação de mecanismos para coletar feedback dos usuários sobre a operação da cafeteira, permitindo melhorias contínuas com base nas sugestões e experiências dos usuários.
+- **Integração com Assistentes Virtuais** : Desenvolvimento de funcionalidades para integração com assistentes virtuais como Alexa e Google Assistant, permitindo o controle por voz da cafeteira.
+- **Análise de Dados** : Utilização de ferramentas de análise de dados para interpretar os dados coletados dos sensores, identificar padrões e fornecer insights úteis para o usuário.
+- **Simulação de Ambiente** : Criação de um ambiente de simulação para testar as funcionalidades da cafeteira IoT em condições controladas antes de implementar no ambiente real.
+- **Compliance e Regulamentações** : Garantia de que o projeto está em conformidade com as regulamentações e padrões de segurança e desempenho relevantes, como CE e FCC.
 
 ## Metodologias 
 - **Agile** : Utilização de metodologias ágeis, como Scrum ou Kanban, para gerenciamento de projetos e desenvolvimento iterativo e incremental.
